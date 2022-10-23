@@ -24,9 +24,10 @@ cd Car-Plate-Detection
 pip install -r requirements.txt  # install
 ```
 Then you should download tesseract to your computer from here https://github.com/UB-Mannheim/tesseract/wiki after that
+You should show path of tesseract.exe on Plate-Detection.py
   
 ```python
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe" #Right Here
 
 model = torch.hub.load('', 'custom', path='best1500.pt', source='local')
 
