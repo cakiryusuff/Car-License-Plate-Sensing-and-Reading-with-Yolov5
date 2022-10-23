@@ -13,7 +13,7 @@
 
 See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
 
-## <div align="center">Quick Start Examples</div>
+## <div>Quick Start Examples</div>
 
 <details open>
 <summary>Install</summary>
