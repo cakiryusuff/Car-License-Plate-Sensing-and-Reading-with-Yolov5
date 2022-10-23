@@ -1,5 +1,5 @@
 
-<h1>Car license plate sensing and reading with custom dataset.</h1>
+<h1>Car license plate sensing and reading with custom dataset</h1>
 <summary>Install</summary>
 
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
