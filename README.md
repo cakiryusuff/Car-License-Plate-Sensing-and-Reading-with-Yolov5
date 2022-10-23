@@ -19,31 +19,16 @@ Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
+git clone https://github.com/cakiryusuff/Car-Plate-Detection.git  # clone
+cd Car-Plate-Detection
 pip install -r requirements.txt  # install
 ```
-
-</details>
-
-<details open>
-<summary>Inference</summary>
-
-YOLOv5 [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36) inference. [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest
-YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
-
+Then you should download tesseract to your computer from here https://github.com/UB-Mannheim/tesseract/wiki after that
+  
 ```python
-import torch
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5n - yolov5x6, custom
+model = torch.hub.load('', 'custom', path='best1500.pt', source='local')
 
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
+cap = cv2.VideoCapture("PexelsVideos2103099.mp4")
 ```
