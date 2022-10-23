@@ -27,3 +27,9 @@ model = torch.hub.load('', 'custom', path='best1500.pt', source='local')
 
 cap = cv2.VideoCapture("PexelsVideos2103099.mp4")
 ```
+
+Now you can execute Plate-Detection.py
+```command
+python Plate-Detection.py
+```
+
