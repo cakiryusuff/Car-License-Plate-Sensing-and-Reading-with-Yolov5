@@ -19,7 +19,7 @@ pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesserac
 
 model = torch.hub.load('', 'custom', path='best1500.pt', source='local')
 
-cap = cv2.VideoCapture("PexelsVideos2103099.mp4")
+cap = cv2.VideoCapture("PexelsVideos2103099.mp4") #You can change video from here
 ```
 
 Now you can execute Plate-Detection.py
