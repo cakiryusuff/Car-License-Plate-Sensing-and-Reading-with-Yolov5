@@ -8,7 +8,7 @@
     <a href="https://apps.apple.com/xk/app/ultralytics/id1583935240" style="text-decoration:none;">
       <img src="https://raw.githubusercontent.com/ultralytics/assets/master/app/app-store.svg" width="15%" alt="" /></a>
   </p>
-
+</div>
 ## <div align="center">Documentation</div>
 
 See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
