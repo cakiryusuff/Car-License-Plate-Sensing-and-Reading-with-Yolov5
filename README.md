@@ -27,3 +27,10 @@ Now you can execute Plate-Detection.py
 python Plate-Detection.py
 ```
 
+Results be like:
+
+<div align= center><img src="pics/Capture - Copy.PNG" width=400 height=200/></div>
+<br>
+<div align= center><img src="pics/Untitled.png" width=400 height=200/></div>
+<br>
+<div align= center><img src="pics/Capturae - Copy.PNG" width=300 /></div>
